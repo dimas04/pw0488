@@ -1,15 +1,20 @@
-table,th ,td{
+table, th, td{
 	border: 1px solid black;
-	border-collapse: : collapse;
-	width: 800px;
-	text-align: center;
-	color: blue;
+	border-collapse: collapse;
 }
 table{
 	border-color: green;
+	width: 800px;
 }
-h1{
+th, td{
+	padding: 5px;
+	text-align: left;
+}
+caption{
 	color: green;
 	text-align: center;
 	width: 800px;
+}
+th{
+	background-color: gray;
 }
