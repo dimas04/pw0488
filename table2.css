@@ -1,11 +1,10 @@
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
-    width: 500;
+    width: 900px;
+    text-align: center;
 }
-tbody{
-    height: 80;
-}
-tfoot{
-    height:40;
+img{
+    height: 200;
+    width: 300px;
 }
