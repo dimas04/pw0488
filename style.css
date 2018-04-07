@@ -1,0 +1,45 @@
+.header{
+	margin: 0 auto;
+	width: 900px;
+	height: 120px;
+	background-color: green;
+}
+.header h1{
+	font-family: arial;
+	width: 400px;
+	text-align: right;
+	float: right;
+    color: #f2f2f2;
+    padding: 10px 10px 10px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #000;
+}
+.header h1	small{
+	font-size: 12px;
+	font-style: italic;
+	color:#fff;
+}
+.menu{
+	margin: 0 auto;
+	width: 900px;
+	height: 45px;
+	border-top: 5px solid blue;
+	background: white;
+	font-size: 16px;
+	text-align: center;
+	background-color: gray;
+}
+.menu ul li {
+	display: inline;
+	margin: 50px;
+}
+.menu li a{
+	text-decoration: none;
+	margin: 10px;
+	padding-bottom: 5px;
+	color:#000;
+}
+.menu li a:hover{
+
+}
