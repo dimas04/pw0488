@@ -1,3 +1,7 @@
+.tema{
+	background-color: yellow;
+	width: 900px;
+}
 .header{
 	margin: 0 auto;
 	width: 900px;
@@ -40,6 +44,7 @@
 	padding-bottom: 5px;
 	color:#000;
 }
-.menu li a:hover{
-
+.content{
+	margin: 0 auto;
+	text-align: center;
 }
