@@ -14,9 +14,14 @@
 		console.log('route', $routeProvider)
 		$routeProvider.when('/',{templateUrl:'main.htm'})
 		.when('/about',{templateUrl:'about.htm'})
-		.when('/product',{templateUrl:'product.htm'})
+		.when('/product',{templateUrl:'product.htm',controller:'weatherCtrl'})
 		.when('/contact',{templateUrl:'contact.htm'})
 	});
+	app.controller('weatherCtrl',function($scope, $http){
+		var url = 'http://api.openweathermap.org/data/2.5/weather?q=sleman,uk&appid=4de4dd041e499ca8a4f6692097befdae';$http.get(url).then(function(response){
+			$scope.info=response.data;
+		});
+		$scope.title="weather of london";});
 </script>
 </head>
 <body>
